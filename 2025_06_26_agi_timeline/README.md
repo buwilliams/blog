@@ -1,4 +1,18 @@
+# AGI Timeline
+
+To move beyond anecdotal chatter about “AI is right around the corner” or “AGI is centuries away,” I pulled together a deliberately eclectic dataset: 100 public forecasts spanning industry CEOs, Deep-Learning pioneers, academic surveys, super-forecasters, and even mid-century visionaries like Turing and Simon. Each entry links to its source, so readers can trace every number back to an interview, paper, or survey appendix. By mixing hot-off-the-press statements with historical projections, the table surfaces both today’s optimism and yesterday’s misplaced certainty—reminding us that timelines always come embedded with the biases, incentives, and blind spots of their era.
+
+Instead of picking a single “right” answer, the post offers raw material for meta-analysis. The CSV and Markdown versions let you slice the data however you like: trim outliers with IQR or MAD, weight estimates by perceived expertise, or overlay your own priors via Bayesian updating. The density plot highlights where predictions cluster (roughly 2030-2050) and where they thin out, giving a fast visual cue to consensus and disagreement. Because every forecast is footnoted, you can swap in your own credibility weights, re-run the stats, and see how the mean, variance, or full probability curve shifts.
+
+In short, this compilation isn’t a crystal ball; it’s a sandbox. It exposes the spread of expert opinion, captures how that spread has evolved, and hands other researchers a clean, cite-able foundation for building more sophisticated models—whether that means Monte-Carlo simulations, Bayesian aggregations, or simply sanity-checking your own gut feel against the broader zeitgeist.
+
+[You can find the data in CSV as well.](./agi-timeline.csv)
+
+---
+
 ![AGI Timeline](agi-timeline.png "AGI Timeline")
+
+---
 
 | Name                                | Estimate   | Probability | Refs                                                                                                                                                                                                                                                                             | Mean Absolute Deviation | Variance   | Standard Deviation |
 | ----------------------------------- | ---------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ---------- | ------------------ |
